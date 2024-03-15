@@ -1,0 +1,68 @@
+html {
+    margin: 0px;
+    font-family: 'TT Commons', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    margin: 12px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    margin: 12px;
+}
+
+li {
+    margin-left: 5px;
+    list-style: none;
+}
+
+a {
+    color: white;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+body {
+    margin: 0px;
+}
+
+
+.flex-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+  }
