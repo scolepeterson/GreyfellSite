@@ -2,22 +2,24 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Greyfell Studios | Official Website</title>
-  <meta name="description" content="Greyfell Studios is an indie game development studio creating immersive, story-driven experiences.">
+  <title>Greyfell Studios | Official Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Greyfell Studios is an indie game development studio focused on immersive, story-driven, and cooperative games.">
   <link rel="stylesheet" href="main.css">
 </head>
 <body>
   <!-- HEADER -->
   <header>
-    <div class="logo-area">
+    <div class="logo-title">
+      <!-- replace with your real logo file -->
       <img src="images/logo.png" alt="Greyfell Studios logo">
-      <div class="studio-title">
+      <div class="title-text">
         <h1>Greyfell Studios</h1>
         <p>Immersive worlds. Unforgettable stories.</p>
       </div>
     </div>
 
-    <!-- MAIN NAVIGATION -->
+    <!-- NAVIGATION -->
     <nav>
       <ul>
         <li><a href="index.html" class="active">Home</a></li>
@@ -30,91 +32,122 @@
     </nav>
   </header>
 
-  <!-- HERO / BANNER SECTION -->
+  <!-- MAIN CONTENT -->
   <main>
+    <!-- HERO / BANNER -->
     <section id="hero">
       <div class="hero-image">
-        <!-- Replace with your own banner image -->
+        <!-- large banner image -->
         <img src="images/hero-banner.jpg" alt="Concept art from a Greyfell Studios game">
       </div>
-      <div class="hero-text">
+      <div class="hero-content">
         <h2>Step Into New Worlds</h2>
         <p>
-          Greyfell Studios is an indie game studio focused on crafting
-          emotional, story-driven, and cooperative game experiences that bring
-          players together.
+          Greyfell Studios is an indie game studio creating emotional, story-driven,
+          and cooperative game experiences that bring players together.
         </p>
-        <a class="btn primary" href="games.html">View Our Games</a>
-        <a class="btn secondary" href="community.html">Join the Community</a>
+        <a href="games.html" class="btn primary">View Our Games</a>
+        <a href="community.html" class="btn secondary">Join the Community</a>
       </div>
     </section>
 
-    <!-- FEATURED GAME SECTION -->
-    <section id="featured-game">
-      <h2>Featured Project: Project Cobalt</h2>
-      <div class="featured-layout">
-        <div class="featured-image">
-          <img src="images/project-cobalt.jpg" alt="Screenshot from Project Cobalt">
+    <!-- FEATURED GAME / TOP STORY -->
+    <section id="featured">
+      <div class="featured-left">
+        <h2>Featured Project: Project Cobalt</h2>
+        <div class="featured-layout">
+          <div class="featured-image-box">
+            <img src="images/project-cobalt.jpg" alt="Screenshot from Project Cobalt">
+          </div>
+          <div class="featured-text">
+            <h3>Co-op Survival in a Broken World</h3>
+            <p>
+              Explore procedurally generated islands after a nuclear war, gather
+              resources, face mutated threats, and extract with your crew. Every
+              run tells a different story.
+            </p>
+            <ul>
+              <li>Online co-op with up to 4 players</li>
+              <li>Risk–reward extraction-style gameplay</li>
+              <li>Dynamic weather and island layouts</li>
+            </ul>
+            <div class="featured-buttons">
+              <a href="games.html" class="btn primary">Learn More</a>
+              <a href="community.html" class="btn secondary">Dev Logs</a>
+            </div>
+          </div>
         </div>
-        <div class="featured-info">
-          <h3>Co-op Survival in a Broken World</h3>
-          <p>
-            Explore procedurally generated islands after a nuclear war, gather
-            resources, face mutated threats, and extract with your crew. Every
-            run tells a different story.
-          </p>
+      </div>
+
+      <!-- SOCIAL / TRAILER SIDEBAR -->
+      <aside class="featured-right">
+        <h2>Trailer & Social</h2>
+        <div class="video-box">
+          <!-- placeholder box for future embedded video -->
+          <p>Project Cobalt Trailer (Coming Soon)</p>
+        </div>
+        <div class="social-links">
+          <p>Stay Connected:</p>
           <ul>
-            <li>Online co-op with friends</li>
-            <li>Procedurally generated maps and encounters</li>
-            <li>Risk–reward extraction-style gameplay loop</li>
+            <li><a href="#">Discord</a></li>
+            <li><a href="#">YouTube</a></li>
+            <li><a href="#">X (Twitter)</a></li>
           </ul>
-          <a class="btn primary" href="games.html">Learn More</a>
         </div>
-      </div>
+      </aside>
     </section>
 
-    <!-- LATEST UPDATES / NEWS SECTION -->
+    <!-- NEWSLETTER / MONTHLY UPDATE -->
     <section id="updates">
-      <h2>Latest Studio Updates</h2>
+      <h2>Monthly Studio Update</h2>
+      <p class="updates-intro">
+        Catch up on the latest from Greyfell Studios — new concept art, dev logs, and gameplay progress.
+      </p>
+
       <div class="updates-grid">
-        <article>
-          <h3>Dev Log #1</h3>
-          <p>
-            We’ve locked in the core movement and combat systems for Project Cobalt
-            and started internal playtesting to tune pacing and difficulty.
-          </p>
-          <a href="community.html">Read more</a>
+        <article class="update-card">
+          <img src="images/update1.jpg" alt="Concept art">
+          <h3>Enviro Concept Art</h3>
+          <p>Early looks at the ruined harbors and overgrown docks players will explore.</p>
         </article>
 
-        <article>
-          <h3>Concept Art Drop</h3>
-          <p>
-            New environment concept art shows off the ruined harbors and overgrown
-            industrial zones players will explore in early missions.
-          </p>
-          <a href="community.html">See the art</a>
+        <article class="update-card">
+          <img src="images/update2.jpg" alt="Playtest note">
+          <h3>Internal Playtests</h3>
+          <p>We’re tuning movement, shooting, and enemy pacing based on tester feedback.</p>
         </article>
 
-        <article>
-          <h3>Playtest Sign-Ups Coming Soon</h3>
-          <p>
-            We’re preparing a small closed playtest for early community members.
-            Keep an eye on the Community page for details.
-          </p>
-          <a href="community.html">Stay updated</a>
+        <article class="update-card">
+          <img src="images/update3.jpg" alt="UI mockup">
+          <h3>New UI Mockups</h3>
+          <p>Inventory and extraction screens are getting a cleaner, more readable look.</p>
         </article>
+
+        <article class="update-card">
+          <img src="images/update4.jpg" alt="Community teaser">
+          <h3>Community Playtest Soon</h3>
+          <p>Closed playtest sign-ups will open to early community members soon.</p>
+        </article>
+      </div>
+
+      <div class="user-reviews">
+        <h3>Early Feedback</h3>
+        <p>
+          “Even in this early stage, the world feels tense and exciting. Can’t wait
+          to see more.” – Early playtester
+        </p>
       </div>
     </section>
 
     <!-- CALL TO ACTION -->
-    <section id="call-to-action">
+    <section id="cta">
       <h2>Want to Get Involved?</h2>
       <p>
         Whether you’re a player, content creator, or fellow developer, we’d love
         to hear from you. Share feedback, ask questions, or reach out about
         collaboration opportunities.
       </p>
-      <a class="btn primary" href="contact.html">Contact Greyfell Studios</a>
+      <a href="contact.html" class="btn primary">Contact Greyfell Studios</a>
     </section>
   </main>
 
@@ -123,7 +156,7 @@
     <p>
       &copy; 2025 Greyfell Studios. All rights reserved.
     </p>
-    <p>
+    <p class="footer-links">
       <a href="index.html">Home</a> |
       <a href="about.html">About</a> |
       <a href="games.html">Games</a> |
