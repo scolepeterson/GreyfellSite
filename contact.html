@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Contact | Greyfell Studios</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Get in touch with Greyfell Studios for questions, feedback, or collaboration.">
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="logo-title">
+      <img src="images/greyfell-logo.jpeg" alt="Greyfell Studios logo">
+      <div class="title-text">
+        <h1>Greyfell Studios</h1>
+        <p>Immersive worlds. Unforgettable stories.</p>
+      </div>
+    </div>
+
+    <!-- NAVIGATION -->
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="games.html">Games</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main>
+    <!-- INTRO -->
+    <section id="hero">
+      <div class="hero-image">
+        <img src="images/greyfellconceptart.jpg" alt="Greyfell Studios world art">
+      </div>
+      <div class="hero-content">
+        <h2>Contact Greyfell Studios</h2>
+        <p>
+          Have questions, feedback, or ideas? We’d love to hear from you.  
+          You can reach us directly at
+          <a href="mailto:greyfellstudios@gmail.com">greyfellstudios@gmail.com</a>
+          or use the form below.
+        </p>
+      </div>
+    </section>
+
+    <!-- CONTACT FORM SECTION -->
+    <section style="background-color:#ffffff; margin:24px 5%; padding:22px; border-radius:6px;">
+      <h2>Send Us a Message</h2>
+      <form action="#" method="post">
+        <div style="margin-bottom:12px;">
+          <label for="name">Name:</label><br>
+          <input type="text" id="name" name="name" required style="width:100%; padding:8px;">
+        </div>
+
+        <div style="margin-bottom:12px;">
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" required style="width:100%; padding:8px;">
+        </div>
+
+        <div style="margin-bottom:12px;">
+          <label for="reason">Reason for Contact:</label><br>
+          <select id="reason" name="reason" style="width:100%; padding:8px;">
+            <option value="general">General Inquiry</option>
+            <option value="feedback">Game Feedback</option>
+            <option value="collaboration">Collaboration</option>
+            <option value="press">Press / Media</option>
+          </select>
+        </div>
+
+        <div style="margin-bottom:12px;">
+          <label for="message">Message:</label><br>
+          <textarea id="message" name="message" rows="5" style="width:100%; padding:8px;"></textarea>
+        </div>
+
+        <div style="margin-bottom:12px;">
+          <label>
+            <input type="checkbox" name="newsletter">
+            Subscribe to our email updates
+          </label>
+        </div>
+
+        <button type="submit" class="btn primary">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 Greyfell Studios. All rights reserved.</p>
+    <p class="footer-links">
+      <a href="index.html">Home</a> |
+      <a href="about.html">About</a> |
+      <a href="games.html">Games</a> |
+      <a href="contact.html">Contact</a>
+    </p>
+  </footer>
+</body>
+</html>

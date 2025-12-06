@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-=======
-/* ============================
-   GLOBAL STYLES
-============================ */
->>>>>>> 549cb63dd13bb60a43c247847bc47073bf358cc2
 * {
   box-sizing: border-box;
 }
@@ -53,13 +47,6 @@ a:hover {
   color: #ffffff;
 }
 
-<<<<<<< HEAD
-
-=======
-/* ============================
-   HEADER & NAVIGATION
-============================ */
->>>>>>> 549cb63dd13bb60a43c247847bc47073bf358cc2
 header {
   background-color: #1a1a1a;
   color: #ffffff;
@@ -310,7 +297,7 @@ footer {
 
 #studio-video p {
   max-width: 700px;
-  margin-bottom: 14px;
+\  margin-bottom: 14px;
 }
 
 #studio-video video {
