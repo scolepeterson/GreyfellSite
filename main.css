@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+/* ============================
+   GLOBAL STYLES
+============================ */
+>>>>>>> 549cb63dd13bb60a43c247847bc47073bf358cc2
 * {
   box-sizing: border-box;
 }
@@ -47,7 +53,13 @@ a:hover {
   color: #ffffff;
 }
 
+<<<<<<< HEAD
 
+=======
+/* ============================
+   HEADER & NAVIGATION
+============================ */
+>>>>>>> 549cb63dd13bb60a43c247847bc47073bf358cc2
 header {
   background-color: #1a1a1a;
   color: #ffffff;
@@ -61,8 +73,8 @@ header {
 }
 
 .logo-title img {
-  height: 60px;
-  width: 60px;
+  height: 90px;   /* Updated for your Greyfell logo */
+  width: auto;
 }
 
 .title-text p {
@@ -96,7 +108,7 @@ nav a.active {
 }
 
 /* ============================
-   Hero Section
+   HERO SECTION
 ============================ */
 #hero {
   background-color: #ffffff;
@@ -105,7 +117,8 @@ nav a.active {
 
 .hero-image img {
   border-radius: 6px;
-  max-height: 340px;
+  width: 100%;
+  max-height: 480px;  /* Updated for your tall concept art */
   object-fit: cover;
 }
 
@@ -125,7 +138,7 @@ nav a.active {
 }
 
 /* ============================
-   Featured Section
+   FEATURED / TOP STORY SECTION
 ============================ */
 #featured {
   display: grid;
@@ -187,7 +200,7 @@ nav a.active {
 }
 
 /* ============================
-   Updates Section
+   UPDATES SECTION
 ============================ */
 #updates {
   background-color: #ffffff;
@@ -230,7 +243,7 @@ nav a.active {
 }
 
 /* ============================
-   Call to Action Section
+   CALL TO ACTION SECTION
 ============================ */
 #cta {
   background-color: #1a1a1a;
@@ -245,7 +258,7 @@ nav a.active {
 }
 
 /* ============================
-   Footer
+   FOOTER
 ============================ */
 footer {
   background-color: #333333;
@@ -260,16 +273,11 @@ footer {
 }
 
 /* ============================
-   Simple Responsive Adjustments
+   RESPONSIVE ADJUSTMENTS
 ============================ */
 @media (max-width: 900px) {
   #featured {
     grid-template-columns: 1fr;
-  }
-
-  .logo-title {
-    flex-direction: row;
-    justify-content: space-between;
   }
 }
 
